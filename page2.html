@@ -55,27 +55,70 @@ crossorigin="anonymous"></script>
       <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
       <div class="masthead">
-        <h3 class="text-muted">Project name</h3>
+        <h3 class="text-muted">By Eddie Stokes</h3>
         <nav>
+            
           <ul class="nav nav-justified">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+              
+            <li class="active"><a href="./index.html">Home</a></li>
+            <li><a href="./page2.html">Plots</a></li>
+            <li><a href="./comparisons.html">Comparisons</a></li>
+            <li><a href="./data.html">Data</a></li>
+            
           </ul>
         </nav>
       </div>
 
       <!-- Jumbotron -->
       <div class="jumbotron">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+        <h1>Latitude VS Temp</h1>
+        <br><br>
+        <img src="latVStemp.png">
+        <p class="col-lg-6">In this visualization, we notice that weather 
+          becomes increasingly warmer near the equator, as one might expect.
+          It is also notable that cities south of the equator tend to be warmer
+          than those north of the equator.
+        </p>
+        
+      </div>
+
+      <div class="jumbotron">
+        <h1>Latitude VS Humidity</h1>
+        <br><br>
+        <img src="latVShumidity.png">
+        <p class="col-lg-6">When looking at the humidity of cities around
+          the world and their relation to the equator, cities on or within extreme
+          proximity to it tend to have high humidity rates. 
+          Beyond that however, equatorial proximity does not seem to have a 
+          definitive effect on a city's humidity levels.
+        </p>
+        
+      </div>
+
+      <div class="jumbotron">
+        <h1>Latitude VS Cloudiness</h1>
+        <br><br>
+        <img src="latVScloudiness.png">
+        <p class="col-lg-6">As one might expect, a city's proximity to the equator
+          does not hold a large bearing on its cloudiness. This graph shows that
+          levels of cloudiness rather even across hemispheres.
+        </p>
+        
+      </div>
+
+      <div class="jumbotron">
+        <h1>Latitude VS Windspeed</h1>
+        <br><br>
+        <img src="latVSwindspeed.png">
+        <p class="col-lg-6">The level of wind speed a city experiences does look to have some relation
+          to its proximity to the equator. This plot indicates that cities north of the equator tend 
+          to have higher levels of wind speed.
+        </p>
+        
       </div>
 
       <!-- Example row of columns -->
+<!--
       <div class="row">
         <div class="col-lg-4">
           <h2>Safari bug warning!</h2>
@@ -94,6 +137,7 @@ crossorigin="anonymous"></script>
           <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div>
+-->
 
       <!-- Site footer -->
       <footer class="footer">
